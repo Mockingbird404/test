@@ -1,0 +1,176 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/WINE PLAYER DEFENITIVO APK/Here new/.kivy/logs/kivy_22-10-23_45.txt
+[INFO   ] Kivy: v2.0.0
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.9.7 (default, Oct  9 2021, 08:02:40) 
+[GCC 11.1.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/bin/python3"
+[INFO   ] Factory: 186 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Audio: Providers: audio_sdl2 (audio_android, audio_ffpyplayer ignored)
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.2 V@331.0 (GIT@7adeec4758, I21281c58c8) (Date:12/27/18)'>
+[INFO   ] GL: OpenGL vendor <b'Qualcomm'>
+[INFO   ] GL: OpenGL renderer <b'Adreno (TM) 505'>
+[INFO   ] GL: OpenGL parsed version: 3, 2
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <16>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] GL: NPOT texture support is available
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TPE2``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TPE2``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] GL: Unpack subimage support is not available
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``APIC``.
+[WARNING] stderr:     No image data in picture frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``APIC``.
+[WARNING] stderr:     No image data in picture frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``APIC``.
+[WARNING] stderr:     No image data in picture frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``APIC``.
+[WARNING] stderr:     No image data in picture frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``APIC``.
+[WARNING] stderr:     No image data in picture frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``APIC``.
+[WARNING] stderr:     No image data in picture frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TPE2``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TPE2``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TPE2``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TPE2``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TDRC`` frame with value ``['2006']``.
+[WARNING] stderr:     ``TDRC`` is not supported in the ID3v2.3 specification.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TDRC`` frame with value ``['2006']``.
+[WARNING] stderr:     ``TDRC`` is not supported in the ID3v2.3 specification.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TDRC`` frame with value ``['2011']``.
+[WARNING] stderr:     ``TDRC`` is not supported in the ID3v2.3 specification.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TDRC`` frame with value ``['2011']``.
+[WARNING] stderr:     ``TDRC`` is not supported in the ID3v2.3 specification.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TALB``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TCON``.
+[WARNING] stderr:     No genres found in genre frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TIT2``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TPE1``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TYER``.
+[WARNING] stderr:     No values found in numeric text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TALB``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TCON``.
+[WARNING] stderr:     No genres found in genre frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TIT2``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TPE1``.
+[WARNING] stderr:     No values found in text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TYER``.
+[WARNING] stderr:     No values found in numeric text frame.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TDRC`` frame with value ``['2014']``.
+[WARNING] stderr:     ``TDRC`` is not supported in the ID3v2.3 specification.
+[WARNING] stderr:     
+[WARNING] stderr: AudioMetadataWarning:
+[WARNING] stderr:     Ignoring ``TDRC`` frame with value ``['2014']``.
+[WARNING] stderr:     ``TDRC`` is not supported in the ID3v2.3 specification.
+[WARNING] stderr:     
+[INFO   ] Base: Leaving application in progress...
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/WINE PLAYER DEFENITIVO APK/Here new/main.py", line 138, in <module>
+[WARNING] stderr:     TheWinePlayer().run()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/app.py", line 950, in run
+[WARNING] stderr:     runTouchApp()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/base.py", line 582, in runTouchApp
+[WARNING] stderr:     EventLoop.mainloop()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/base.py", line 347, in mainloop
+[WARNING] stderr:     self.idle()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/base.py", line 391, in idle
+[WARNING] stderr:     self.dispatch_input()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/base.py", line 342, in dispatch_input
+[WARNING] stderr:     post_dispatch_input(*pop(0))
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/base.py", line 248, in post_dispatch_input
+[WARNING] stderr:     listener.dispatch('on_motion', etype, me)
+[WARNING] stderr:   File "kivy/_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/core/window/__init__.py", line 1412, in on_motion
+[WARNING] stderr:     self.dispatch('on_touch_down', me)
+[WARNING] stderr:   File "kivy/_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/core/window/__init__.py", line 1428, in on_touch_down
+[WARNING] stderr:     if w.dispatch('on_touch_down', touch):
+[WARNING] stderr:   File "kivy/_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/uix/screenmanager.py", line 1198, in on_touch_down
+[WARNING] stderr:     return super(ScreenManager, self).on_touch_down(touch)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/uix/widget.py", line 545, in on_touch_down
+[WARNING] stderr:     if child.dispatch('on_touch_down', touch):
+[WARNING] stderr:   File "kivy/_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/uix/relativelayout.py", line 297, in on_touch_down
+[WARNING] stderr:     ret = super(RelativeLayout, self).on_touch_down(touch)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/uix/widget.py", line 545, in on_touch_down
+[WARNING] stderr:     if child.dispatch('on_touch_down', touch):
+[WARNING] stderr:   File "kivy/_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/uix/behaviors/button.py", line 151, in on_touch_down
+[WARNING] stderr:     self.dispatch('on_press')
+[WARNING] stderr:   File "kivy/_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/storage/emulated/0/WINE PLAYER DEFENITIVO APK/Here new/main.py", line 125, in on_press
+[WARNING] stderr:     root = self.parent.get_screen("select")
+[WARNING] stderr: AttributeError: 'ScreenSelectSongs' object has no attribute 'get_screen'

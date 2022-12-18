@@ -1,0 +1,51 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/WINE PLAYER DEFENITIVO APK/Here new/.kivy/logs/kivy_22-10-23_8.txt
+[INFO   ] Kivy: v2.0.0
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.9.7 (default, Oct  9 2021, 08:02:40) 
+[GCC 11.1.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/bin/python3"
+[INFO   ] Logger: Purge log fired. Analysing...
+[INFO   ] Logger: Purge 12 log files
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 186 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Audio: Providers: audio_sdl2 (audio_android, audio_ffpyplayer ignored)
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.2 V@331.0 (GIT@7adeec4758, I21281c58c8) (Date:12/27/18)'>
+[INFO   ] GL: OpenGL vendor <b'Qualcomm'>
+[INFO   ] GL: OpenGL renderer <b'Adreno (TM) 505'>
+[INFO   ] GL: OpenGL parsed version: 3, 2
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <16>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] GL: NPOT texture support is available
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[INFO   ] Base: Leaving application in progress...
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/WINE PLAYER DEFENITIVO APK/Here new/main.py", line 110, in <module>
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/app.py", line 950, in run
+[WARNING] stderr:     runTouchApp()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/base.py", line 582, in runTouchApp
+[WARNING] stderr:     EventLoop.mainloop()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/base.py", line 347, in mainloop
+[WARNING] stderr:     self.idle()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/base.py", line 387, in idle
+[WARNING] stderr:     Clock.tick()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/clock.py", line 733, in tick
+[WARNING] stderr:     self.post_idle(ts, self.idle())
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/kivy/clock.py", line 776, in post_idle
+[WARNING] stderr:     self._process_events()
+[WARNING] stderr:   File "kivy/_clock.pyx", line 616, in kivy._clock.CyClockBase._process_events
+[WARNING] stderr:   File "kivy/_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+[WARNING] stderr:   File "kivy/_clock.pyx", line 645, in kivy._clock.CyClockBase._process_events
+[WARNING] stderr:   File "kivy/_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+[WARNING] stderr:   File "/storage/emulated/0/WINE PLAYER DEFENITIVO APK/Here new/main.py", line 50, in updateList
+[WARNING] stderr:     btn = StyleSelectButton(path ,bar_options ,index)
+[WARNING] stderr:   File "/storage/emulated/0/WINE PLAYER DEFENITIVO APK/Here new/main.py", line 68, in __init__
+[WARNING] stderr:     def update(self ,*args):
+[WARNING] stderr: AttributeError: 'NoneType' object has no attribute 'get_screen'

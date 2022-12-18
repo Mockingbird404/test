@@ -1,0 +1,126 @@
+#:import get_color_from_hex kivy.utils.get_color_from_hex
+#:import Gradient kivy_gradient.Gradient
+<Manager>:
+	ScreenSelectSongs:
+		name:"select"
+	ScreenPlaySongs:
+		name:"playing"
+<ScreenSelectSongs>:
+	FloatLayout:
+		canvas:
+	    	Rectangle:
+	       	 size: self.size
+	            pos: self.pos
+	            texture: 
+	           	 Gradient.vertical(get_color_from_hex("032336"),get_color_from_hex("0C2D3E"),get_color_from_hex("0D171B"),get_color_from_hex("0D171B"),get_color_from_hex("0D171B"))
+		ScrollView:
+			BoxLayout:
+				size_hint_y:None
+	            height:self.minimum_height
+	            orientation:"vertical"
+				id:select_box
+
+<ScreenPlaySongs>:
+	BoxLayout:
+		orientation: "vertical"
+		canvas:
+	    	Rectangle:
+	       	 size: self.size
+	            pos: self.pos
+	            texture: 
+	           	 Gradient.vertical(get_color_from_hex("032336"),get_color_from_hex("0C2D3E"),get_color_from_hex("0D171B"),get_color_from_hex("0D171B"),get_color_from_hex("0D171B"))
+	    Image:
+	    	size_hint: (None ,None)
+	    	size: (500 ,500)
+	    	pos_hint:{"center_x":0.5,"center_y":1}
+			id:play_pic
+	    BoxLayout:
+	    	size_hint_y: None
+	    	height: "80dp"
+	    	orientation:"vertical"
+	   	 Label:
+	    		id: title
+	    		text:"Title"
+		   	 color: (0.8 ,0.8 ,0.8 ,1)
+	       	 font_size: 30
+				text_size:self.size
+				valing:"center"
+		        halign:"center"
+			Label:
+			    id: artist
+			    text: "Artist"
+			    color: (0.5 ,0.5 ,0.5 ,1)
+				font_size: 20
+				text_size:self.size
+				valing:"center"
+		        halign:"center"
+		BoxLayout:
+	     	
+<StyleSelectButton>:
+	size_hint_y:None
+	height:"90dp"
+	padding: "10dp"
+	spacing: "15dp"
+	canvas:
+		Color:
+			rgba:(0.3 ,0.3 ,0.3 ,1)
+		Line:
+			points: self.x ,self.y ,self.x + self.width ,self.y
+			width: 1		
+	Image:
+		size_hint_x: None
+		width: "50dp"
+		id:pic
+	BoxLayout:
+		orientation:"vertical"
+		Label:
+			id: title
+			color: (0.8 ,0.8 ,0.8 ,1)
+			font_size: 30
+		    text_size:self.size
+            valing:"center"
+            halign:"left"
+		Label:
+			id: artist
+			color: (0.5 ,0.5 ,0.5 ,1)
+			font_size: 20
+		    text_size:self.size
+            valing:"center"
+            halign:"left"
+<PlayerOptionsBar>:
+	size_hint_y: None
+	height: "70dp"
+	padding: "10dp"
+	spacing: "15dp"
+	y: -self.height
+	canvas:
+		Rectangle:
+	    	size: self.size
+	        pos: self.pos
+	        texture: 
+	        	Gradient.vertical(get_color_from_hex("0C2D3E"),get_color_from_hex("0D171B"),get_color_from_hex("0D171B"))
+	Image:
+		size_hint_x: None
+		width: "80dp"
+		id:pic_bar
+	BoxLayout:
+		orientation:"vertical"
+		spacing: 0
+		Label:
+			id: title_bar
+			color: (0.8 ,0.8 ,0.8 ,1)
+			font_size: 30
+			text_size:self.size
+            valing:"center"
+            halign:"left"
+		Label:
+			id: artist_bar
+			color: (0.5 ,0.5 ,0.5 ,1)
+			font_size: 20
+	 	   text_size:self.size
+            valing:"center"
+            halign:"left"
+
+	
+	
+	
