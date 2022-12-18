@@ -10,7 +10,7 @@ package.name = myapp
 package.domain = wineplaye2022@gmail.com
 
 # (str) Source code where the main.py live
-source.dir = .
+source.dir = main.py
 
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = player.py,a.png,b.png,thewineplayer.kv
@@ -39,7 +39,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,audio_metadata,pyjinius,os,io,threading
+requirements = python3,kivy,audio_metadata,pyjinius
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
